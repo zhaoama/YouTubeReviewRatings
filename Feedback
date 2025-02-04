@@ -1,0 +1,30 @@
+GitHub Repo
+- Your GitHub repository is well structured and includes a README document to give users an overview of what they are looking at. Your work is segmented into neat folders. One suggestion I have is to group some of the files in your Datasets folder into smaller subforlders for organization.
+- On a similar note, in your Jupyter Notebook folder, it may be useful to group the PDF documents into their own folder as well. This can ensure that users know exactly where to go to find executable notebooks versus a PDF overview.
+- It may also be beneficial to have your saved models live in their own folder. This way, they do not get lost within the notebooks from week to week. 
+- Your repository is easy to naviagte through which allows easy finding of each artifact, great job having a clear set up.
+
+Code/Jupyter Notebook
+- You have clear labels at the start of each section which help guide understanding of the project flow. One thing to consider is moving the intial missing value investigation into the EDA section.
+- I love the visualizations in the EDA section! One thing that could improve the histograms showing the numerical variable distributions could be to limit the X axis to a smaller range so you can see the smaller bars. Overall, great use of the seaborn package to create more professional looking visuals. I find data visualization to be very important in explaining the data distribution, so it is great that you conducted this in depth. 
+- Cool mapping of categories to names, this can help people keep track of which bars belong to each category. 
+- I like the creation of the "Engagement Metrics" variable. I do understand that a dislike is still engagement, but I wonder if there is a different variable you could create that would account for negative engagement. A post could recieve many dislikes and people may mistakenly believe sheer engagement is good. While this may be on the reader to make sure they understand the definition of enagegment (it can be good and bad), it could be helpful to have another vairable taht factors in likes vs. dislikes. 
+- Really like the worldcloud, good way to understand which words are dominant in the data.
+- Nice job building functions to accomplish tasks in the Model Building section. 
+- You may consider using something like pip freeze to display package versions so you don't have to build a function that may require more manual work. Still a cool solution to the problem, though!
+
+Code Ouput
+- The code output is a great reflection of the work in the notebook. Your use of markdown features allows the text to look clean and the headers ensure the workflow is organized. Even though the investigation itself is important, some of the cell block outputs could be omitted if they do not present information that is relevant to the business question you aim to answer. 
+- Additional use of sub headers could help better format the work to understand how some of the sub-analysis relates to the overall goal of the section. For example, in your Model Building section you do a good job using sub headers to describe smaller steps in the process.
+- It may be helpful to create some visualizations for the model results as well such as graphing feature importance or accuracy metrics from different models. 
+- This was likely not your fault, but it seems some of the outputs were cut off (page 28 & 35). 
+- The sentiment analysis investigation was a great addition to this analysis.
+
+Report
+- The paper begins well with a clear outline of how investigating a dataset can lead to a new problem statement. Content recommendation is very popular in the current world with social media having a great presence. 
+- I like the structure of the EDA section, you clearly outline your strategy, why it is relevant, and what you found. 
+- Good use of itallics to highlight the variables in the dataset. This is especially important when the features have names similar to common words. 
+- Nice introduction to model selection and why you selected the XGBoost library. While you do mention that you tried other models, it may be helpful to include a brief description of the other methods just so people can be aware of other potential solutions.
+- I understand the feature importance evaluation was a later part of our project, but it may fit better earlier on in the paper before the model monitoring section.
+- The visuals in the appendix are awesome! Really picky note, but it may be worth making sure that the titles of the appendix features are on the same page as the visuals they pertrain to.
+- Overall this was an amazing report that was well written and organized. I thought the narrative of the project flowed well and you backed up every decision you made with supporting evidence as to why you made that choice. Well done!
